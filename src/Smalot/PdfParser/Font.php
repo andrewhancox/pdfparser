@@ -106,7 +106,7 @@ class Font extends Object
         if (array_key_exists($dec, $this->table)) {
             $char = $this->table[$dec];
         } else {
-            $char = ($use_default ? self::MISSING : $char);
+            $char = ' ';
         }
 
         return $char;
